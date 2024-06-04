@@ -1,3 +1,6 @@
 a=int(input())
-print(a)
-print(a,'print')
+print('Before value : ',a)
+for i in range(a/2):
+  if a%i==0:
+    print('Not a Prime')
+print('After value : ',a)
